@@ -1,10 +1,54 @@
 .book-cover {
-	background-image: url(../images/rorschach.jpg);
+	background-image: url(../images/v-for-vendetta-.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 1080px;
 }
 
+
+.main {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 120%;
+	line-height: 150%;
+	float: left;
+}
+
+nav {
+	width: 50%;
+	text-align: center;
+	font-size: 120%;
+	line-height: 150%;
+}
+.v-happy { 
+	width: 50%;
+	height: 100%;
+	float: right;
+
+ }
+
+.v-happy-2 { 
+	width: 50%;
+    margin: auto;
+    text-align: center;
+ }
+
+
+
+ img {width: 100%;
+height: 90%;
+ }
+
 h1 {font-family: 'Anton', sans-serif; font-size:  56px; text-align: center;}
 h2 {font-family: 'Roboto Slab', serif; font-size: 48px; text-align: center;}
-h3 {font-family: 'Roboto Slab', serif; font-size: 36px; text-align: center;
+h3 {font-family: 'Roboto Slab', serif; font-size: 30px; text-align: center;}
+
+nav li {display: inline-block;
+	border: 1.5px;
+	border-color: black;
+	border-style: solid;
+	margin-right: 10px;
+}
+
+footer {clear: right;}
